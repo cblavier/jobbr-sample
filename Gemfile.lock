@@ -1,3 +1,14 @@
+PATH
+  remote: /Users/cblavier/code/jobbr
+  specs:
+    jobbr (1.1.2)
+      chronic_duration
+      delayed_job_mongoid
+      haml
+      mongoid (~> 3.0)
+      rails (~> 3.2)
+      whenever
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -30,6 +41,9 @@ GEM
       multi_json (~> 1.0)
     arel (3.0.2)
     builder (3.0.4)
+    chronic (0.9.1)
+    chronic_duration (0.10.2)
+      numerizer (~> 0.1.1)
     coffee-rails (3.2.2)
       coffee-script (>= 2.2.0)
       railties (~> 3.2.0)
@@ -37,9 +51,16 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.6.3)
+    delayed_job (3.0.5)
+      activesupport (~> 3.0)
+    delayed_job_mongoid (2.0.0)
+      delayed_job (~> 3.0)
+      mongoid (~> 3.0)
     erubis (2.7.0)
     execjs (1.4.0)
       multi_json (~> 1.0)
+    haml (4.0.2)
+      tilt
     hike (1.2.3)
     i18n (0.6.4)
     journey (1.0.4)
@@ -58,6 +79,7 @@ GEM
       tzinfo (~> 0.3.22)
     moped (1.5.0)
     multi_json (1.7.7)
+    numerizer (0.1.1)
     origin (1.1.0)
     polyglot (0.3.3)
     rack (1.4.5)
@@ -104,12 +126,16 @@ GEM
     uglifier (2.1.2)
       execjs (>= 0.3.0)
       multi_json (~> 1.0, >= 1.0.2)
+    whenever (0.8.4)
+      activesupport (>= 2.3.4)
+      chronic (>= 0.6.3)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
+  jobbr!
   jquery-rails
   mongoid
   rails (= 3.2.14)
