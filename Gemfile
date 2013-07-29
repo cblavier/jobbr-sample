@@ -6,7 +6,7 @@ gem 'rails', '3.2.14'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'mongoid'
-gem 'jobbr', path: '/Users/cblavier/code/jobbr'
+gem 'jobbr'
 
 
 # Gems used only for assets and not required

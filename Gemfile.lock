@@ -1,14 +1,3 @@
-PATH
-  remote: /Users/cblavier/code/jobbr
-  specs:
-    jobbr (1.1.2)
-      chronic_duration
-      delayed_job_mongoid
-      haml
-      mongoid (~> 3.0)
-      rails (~> 3.2)
-      whenever
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -59,10 +48,17 @@ GEM
     erubis (2.7.0)
     execjs (1.4.0)
       multi_json (~> 1.0)
-    haml (4.0.2)
+    haml (4.0.3)
       tilt
     hike (1.2.3)
     i18n (0.6.4)
+    jobbr (1.1.3)
+      chronic_duration
+      delayed_job_mongoid
+      haml
+      mongoid (~> 3.0)
+      rails (~> 3.2)
+      whenever
     journey (1.0.4)
     jquery-rails (3.0.4)
       railties (>= 3.0, < 5.0)
@@ -135,7 +131,7 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
-  jobbr!
+  jobbr
   jquery-rails
   mongoid
   rails (= 3.2.14)
